@@ -25,8 +25,7 @@ if (opcaoDesejada == 1 || opcaoDesejada.toLowerCase == "começar") {
     var verificador = false;
     for (var contador2 = 1; contador2 <= 6; contador2 ++) {
         var tentativa = prompt("palavras tentadas: " + palavrasTentadas + "\nTentativa " + contador2);
-        // Casca
-        // aviao
+       
             var mostrar = ""
             for (var contador3 = 0; contador3 < 5; contador3++) {
                 var testadorDeLetra = palavraEscolhida.indexOf(tentativa[contador3])
