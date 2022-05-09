@@ -24,7 +24,7 @@ if (opcaoDesejada == 1 || opcaoDesejada.toLowerCase == "começar") {
     var palavrasTentadas = [];
     var verificador = false;
     for (var contador2 = 1; contador2 <= 6; contador2 ++) {
-        var tentativa = prompt("palavras tentadas: " + palavrasTentadas + "\nTentativa " + contador2);
+        var tentativa = prompt("palavras tentadas:\n" + palavrasTentadas.join("\n") + "\nTentativa " + contador2);
        
             var mostrar = ""
             for (var contador3 = 0; contador3 < 5; contador3++) {
@@ -46,7 +46,7 @@ if (opcaoDesejada == 1 || opcaoDesejada.toLowerCase == "começar") {
             }
     }       
 } else if (opcaoDesejada == 2 || opcaoDesejada.toLowerCase == "regras") {
-    alert("Regras: \n\nDescubra a palavra certa em 6 tentativas. Depois de cada tentativa as peças mostram o quão perto você está da solução. \n\nT! U R M A \n\nA letra T! faz parte da palavra e está na posição correta. \n\nV I O? L A \n\nA letra O? faz parte da palavra mas em outra posição. \n\nP U L G# A \n\nA letra G# não faz parte da palavra. \n\nOs acentos são preenchidos automaticamente, e não são considerados nas dicas. \n\nAs palavras podem possuir letras repetidas.");
+    alert("Regras: \n\nDescubra a palavra certa em 6 tentativas. Depois de cada tentativa as peças mostram o quão perto você está da solução. \n\nT! U R M A \n\nA letra T! faz parte da palavra e está na posição correta. \n\nV I O? L A \n\nA letra O? faz parte da palavra mas em outra posição. \n\nP U L G# A \n\nA letra G# não faz parte da palavra. \n\nAs palavras podem possuir letras repetidas.");
 } else if (opcaoDesejada == 3 || opcaoDesejada.toLowerCase == "sair") {
     window.close();
 }
