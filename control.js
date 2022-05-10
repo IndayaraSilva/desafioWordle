@@ -3,7 +3,7 @@
 // Palavra chave com 5 caracteres;
 // Maximo de 6 tentetivas.
 
-var opcaoDesejada = prompt("Bem vindo ao worlde! Selecione a opção desejada: \n1. Começar \n2. Regras \n3. Sair");
+var opcaoDesejada = prompt("Bem vindo ao wordle! Selecione a opção desejada: \n1. Começar \n2. Regras \n3. Sair");
  //[1 IF FUNCIONANDO]
 if (opcaoDesejada == 1 || opcaoDesejada.toLowerCase == "começar") {
     // jogo inteiro
